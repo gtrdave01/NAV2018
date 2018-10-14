@@ -1,0 +1,15 @@
+﻿{
+    "branchId":  "1ffc30a3-76e4-4a1d-b70f-8575453c0752",
+    "dockerImage":  "microsoft/dynamics-nav:2018-w1",
+    "dockerMemoryLimit":  "4G",
+    "dockerAuthentication": "NavUserPassword",
+    "navVersion":  "11.0.0.0",
+    "navSolution":  "W1",
+    "projectName":  "W1",
+    "storeAllObjects":  "true",
+    "uidOffset":  "50100",
+    "objectProperties":  "true",
+    "datetimeCulture":  "en-US",
+    "targetPlatform":  "Dynamics365",
+    "baseBranch":  "master"
+}
