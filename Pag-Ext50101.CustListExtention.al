@@ -1,4 +1,4 @@
-pageextension 50104 CustListExtention extends "Customer List"
+pageextension 50101 "CustListExtention" extends "Customer List"
 {
     layout
     {
