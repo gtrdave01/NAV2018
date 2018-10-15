@@ -37,9 +37,7 @@ pageextension 50100 "CustCardExt" extends "Customer Card"
                 begin
                     ToggleInactive(CurrPage.Editable());                    
                 end;
-
             }
-
         }
     }
 

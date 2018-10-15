@@ -17,6 +17,7 @@ tableextension 50100 "ExtCustomer" extends Customer
     procedure ToggleInactive(IsPageEditable:Boolean)
     begin
         Inactive := not Inactive;
+        // IF the page isnt in Edit mode, we need to run the Modify Command.
         if not IsPageEditable then
             Modify(true);
 
